@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+  script(src='/Static/index.js')
+
+block style
+    style        
+      include ../Static/style.css
+
+block content
+    section#introSection 
+        div Welcome to Harry's Dance acedemy 
+        div.small Eat sleep dance Repeat
+    section#missionSection 
+        h2 Our mission
+        div.card
+            h3 Dance perfection
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/1gb.png")
+
+            div.card-content 
+                p This is the dance acedmy of the unvivers  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima repellat numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate, nam fugit corporis molestiae accusantium.  
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/2gb.png")
+
+            div.card-content 
+                p This is the dance acedmy of the unvivers   Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima repellat numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate, nam fugit corporis molestiae accusantium. 
+        div.card
+            h3 Expert teaching
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/3gb.png")
+
+            div.card-content 
+                p This is the dance acedmy of the unvivers Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima repellat numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate, nam fugit corporis molestiae accusantium.   
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+                img(src="static/img/logo1.png" , alt="Sponsors image" ,Class="Spimage")
+                img(src="static/img/logo7.png" , alt="Sponsors image" ,Class="Spimage")
+                img(src="static/img/logo4.png" , alt="Sponsors image" ,Class="Spimage")
+                img(src="static/img/logo5.png" , alt="Sponsors image" ,Class="Spimage")

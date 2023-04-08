@@ -1,0 +1,58 @@
+doctype html
+html     
+  head 
+    style        
+      include ../Static/style.css 
+  body 
+    nav#navbar 
+     ul
+        div#logo 
+            img(src="/static/img/logo.png")
+            |HDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Contact us ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") Class info ]
+
+    section#introSection 
+        div Welcome to Harry's Dance acedemy 
+        div.small Eat sleep dance Repeat
+    section#missionSection 
+        h2 Our mission
+        div.card
+            h3 Dance perfection
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/1gb.png")
+
+            div.card-content 
+                p This is the dance acedmy of the unvivers  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima repellat numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate, nam fugit corporis molestiae accusantium eligendi quod nobis officiis nostrum repellat distinctio unde rerum.  
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/2gb.png")
+
+            div.card-content 
+                p This is the dance acedmy of the unvivers   Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima repellat numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate, nam fugit corporis molestiae accusantium eligendi quod nobis officiis nostrum repellat distinctio unde rerum. 
+        div.card
+            h3 Expert teaching
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/3gb.png")
+
+            div.card-content 
+                p This is the dance acedmy of the unvivers Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima repellat numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate, nam fugit corporis molestiae accusantium eligendi quod nobis officiis nostrum repellat distinctio unde rerum.   
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+                img(src="static/img/logo1.png" , alt="Sponsors image" ,Class="Spimage")
+                img(src="static/img/logo7.png" , alt="Sponsors image" ,Class="Spimage")
+                img(src="static/img/logo4.png" , alt="Sponsors image" ,Class="Spimage")
+                img(src="static/img/logo5.png" , alt="Sponsors image" ,Class="Spimage")
+
+    footer#footer 
+        | copyright 2023 &copy; Harry's Dance Acedemy | All right reserved !
+    script 
+        include ../Static/index.js
